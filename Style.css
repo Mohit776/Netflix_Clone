@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+}
+
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(IMAGES/bg1.jpg);
+
+    position: relative;
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    height: 105vh;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+
+
+
+
+
+}
+
+.main .box {
+    width: 100%;
+    height: 105vh;
+    background-color: black;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    height: 60px;
+    padding-top: 10px;
+
+}
+
+nav img {
+    color: red;
+    width: max(100px, 11vw);
+
+    position: relative;
+    z-index: 10;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
+    z-index: 10;
+}
+
+.flex select {
+    border-radius: 5px;
+    background-color: rgba(29, 18, 18, 0.397);
+    color: white;
+    width: 10vw;
+    font-size: 16px;
+    padding: auto;
+}
+
+
+
+
+
+.redb1 {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 26px;
+    width: 60px;
+    padding-top: 4px;
+    padding-left: 15px;
+    border-radius: 5px;
+
+
+}
+
+.redb2:hover {
+    background-color: rgb(197, 40, 40);
+}
+
+.redb1:hover {
+    background-color: rgb(197, 40, 40);
+}
+
+.redb2 {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 0px;
+    justify-items: center;
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    padding: 7px 101px 8px 14px;
+
+
+    border-radius: 7px;
+    color: white;
+
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    gap: 23px;
+    padding: 0 30px;
+
+
+
+}
+
+.hero1 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.hero2 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.hero3 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sapration {
+    background-color: rgb(53, 51, 51);
+    width: 100%;
+    height: 2vh;
+    position: relative;
+    z-index: -1;
+}
+
+.first {
+    height: 85vh;
+    max-width: 70vw;
+
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+    margin: auto;
+
+}
+
+.secimg {
+    position: relative;
+}
+
+
+
+.secimg img {
+    position: relative;
+    width: max(420px, 30vw);
+    margin-top: 10px;
+    z-index: 2;
+
+}
+
+.secimg video {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    width: 350px;
+
+}
+
+.first1 :first-child {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.first1 :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.secimg2 {
+    position: relative;
+}
+
+.secimg2 img {
+    position: relative;
+    width: 425px;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+.secimg2 video {
+    position: absolute;
+    left: 16%;
+    top: 7%;
+    width: 285px;
+
+
+
+}
+
+.faq {
+    width: 100%;
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.ques {
+    width: 75vw;
+    height: 12vh;
+    background-color: rgb(58, 54, 54);
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 2%;
+
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.ques:hover {
+    background-color: rgb(87, 83, 83);
+}
+
+.f1 {
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+
+}
+
+.faq :nth-child(8) {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+
+}
